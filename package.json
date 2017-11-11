@@ -4,12 +4,16 @@
     "description": "REST API with node and Mongo",
     "main": "index.js",
     "scripts": {
+        "start": "node server/server.js",
         "test": "mocha server/**/*.test.js",
         "test-watch": "nodemon --exec 'npm test'"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/ionutpetrache/node-todo-api.git"
+    },
+    "engines": {
+        "node": "6.2.2"
     },
     "author": "",
     "license": "ISC",
